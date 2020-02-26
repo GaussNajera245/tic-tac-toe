@@ -1,4 +1,10 @@
-body {
+.heading{
+  font-size: 50px;
+  font-weigth: bold;
+  border-bottom: 5px solid black
+}
+
+/* body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
@@ -47,4 +53,4 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
-}
+} */
