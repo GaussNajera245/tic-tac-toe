@@ -3,13 +3,22 @@ import ReactDOM from 'react-dom';
 import Footer from './components/footer';
 import Header from './components/header';
 import Note from './components/note';
-import './index.css'
+import './index.css';
+import notes from './note';
 
-function App (){
+// 
+function App() {
     return (
         <div>
             <Header />
-            <Note />
+            {notes.map (n => (
+                        <Note
+                            key={n.key} w
+                            title={n.title}
+                            text={n.content}
+                        />
+                    )
+            )}
             <Footer />
         </div>
     );
